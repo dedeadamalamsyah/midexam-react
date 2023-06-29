@@ -138,7 +138,7 @@ export default function Home() {
           Previous
         </Button>
         {filteredSortedProducts
-          .filter((_product, i) => i % 5 === 0)
+          .filter((_product, i) => i % 4 === 0)
           .map((_product, i) => (
             <button
               key={i}
